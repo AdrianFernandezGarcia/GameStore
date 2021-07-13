@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="gameManagementButton" layoutX="93.0" layoutY="164.0" mnemonicParsing="false" onAction="#toGameManagement" prefHeight="73.0" prefWidth="149.0" text="GAME MANAGEMENT" />
+      <Button fx:id="userManagementButton" layoutX="335.0" layoutY="164.0" mnemonicParsing="false" onAction="#toUserManagement" prefHeight="73.0" prefWidth="149.0" text="USER MANAGEMENT" />
+   </children>
+</Pane>

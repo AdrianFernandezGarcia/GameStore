@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:id="mainPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="1131.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="headerPanel" prefHeight="99.0" prefWidth="1131.0">
+         <children>
+            <MenuButton fx:id="dropMenu" alignment="CENTER" layoutX="971.0" layoutY="32.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="122.0" text="Cuenta">
+              <items>
+                <MenuItem id="item1" mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+         </children>
+      </Pane>
+      <Pane fx:id="contentPanel" layoutY="98.0" prefHeight="592.0" prefWidth="615.0">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" prefHeight="592.0" prefWidth="614.0" vbarPolicy="ALWAYS">
+               <content>
+                  <ListView fx:id="gameList" prefHeight="591.0" prefWidth="601.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Pane layoutX="612.0" layoutY="100.0" prefHeight="592.0" prefWidth="522.0" />
+   </children>
+</Pane>

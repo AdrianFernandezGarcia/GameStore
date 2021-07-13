@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="registerPanel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="38.0" layoutY="55.0" text="Title" />
+      <TextField fx:id="tfTitle" layoutX="109.0" layoutY="51.0" prefHeight="25.0" prefWidth="135.0" />
+      <TextField fx:id="tfPrice" layoutX="109.0" layoutY="99.0" prefHeight="25.0" prefWidth="135.0" />
+      <Label layoutX="38.0" layoutY="103.0" text="Price" />
+      <Label layoutX="38.0" layoutY="151.0" text="Platform" />
+      <Label layoutX="321.0" layoutY="94.0" text="Image" />
+      <Button fx:id="registerButton" layoutX="245.0" layoutY="210.0" mnemonicParsing="false" onAction="#submitAdd" prefHeight="25.0" prefWidth="111.0" text="SUBMIT" />
+      <Button fx:id="imageButton" layoutX="387.0" layoutY="91.0" mnemonicParsing="false" onAction="#pickImage" text="Image" />
+      <CheckBox fx:id="cbPC" layoutX="104.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="PC" />
+      <CheckBox fx:id="cbPS" layoutX="155.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="49.0" text="PS" />
+      <CheckBox fx:id="cbXBox" layoutX="204.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="XBOX" />
+      <CheckBox fx:id="cbNintendo" layoutX="271.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Nintendo" />
+   </children>
+</Pane>
